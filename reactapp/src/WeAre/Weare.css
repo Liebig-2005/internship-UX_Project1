@@ -1,0 +1,43 @@
+.video-card {
+    width:100%;
+    height: 70vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+.video-part {
+    width: 50%;
+
+}
+.since {
+    color: #868f93;
+}
+.video-title {
+    font-weight: 700;
+}
+.video-ex {
+    font-family: 'Poppins', sans-serif;
+    gap: 40px;
+    width: 50%;
+    padding-top: 80px;
+}
+
+.video-des {
+    color: #586162;
+}
+
+.video-container {
+    width: 100%; /* Ensures it takes full width of video-part */
+    height: 100%; /* Matches parent height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-element {
+    width: 100%; /* Makes sure the video expands within the container */
+    height: 100%; /* Optional: Adjust for full height */
+    object-fit: cover; /* Ensures video fills container neatly */
+    border-radius: 10px;
+}

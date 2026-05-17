@@ -1,0 +1,74 @@
+.navbar {
+    
+    padding: 5px 5px;
+
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Small space between brand & text */
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f28123 !important; 
+     /* Adjusted for balance */
+}
+
+.navbar-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #f28123 !important;
+    margin-top: -20px; /* Fine-tuning the spacing */
+}
+
+/* Fixing icon alignment */
+.basket-icon 
+{
+    font-size: 25px;
+    color: #f28123 !important;
+    margin: 30px 100px; /* Balanced left & right spacing */
+    margin-right: 8px !important;
+    
+
+}
+
+
+.search-icon {
+    font-size: 24px;
+    color: #f28123 !important;
+    margin-right: 50px;
+    font-size:medium;
+}
+.cart-icon {
+    font-size: 24px;
+    color: #f28123 !important;
+    margin-right: 35px;
+    font-size:medium;
+}
+
+.nav-item {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav{
+    align-items: center !important;
+}
+
+.list {
+    font-weight: bold;
+    gap: 50px;
+    padding: auto;
+}
+
+.lists:hover {
+    color: #f28123 !important;
+}
+
+.nav-link {
+        color: #ffffff !important;
+}

@@ -1,0 +1,67 @@
+.main {
+    background-image: url('/hero-bg.jpg'); /* Ensure correct path */
+    background-size: cover;
+    background-position: center;
+    size: 100vh;
+    min-height: 100vh; /* Full screen height */
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero {
+    padding: 40px;
+}
+
+button.button1 {
+  background-color: #f28123; /* Custom color */
+  border-radius: 50px; /* Rounded corners */
+  padding: 8px 20px; /* Spacing */
+  font-size: 16px; /* Font size */
+  border-color:#f28123;
+  color: #ffffff !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+button.button1:hover {
+  background-color: black !important;
+  border: #f28123 1px solid !important;
+  border: #ffffff 1px solid !important;
+}
+
+p.text {
+    align-items: center;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    color: #f28123;
+    font-weight: 700;
+
+}
+
+button.button2 {
+  border-radius: 50px; /* Rounded corners */
+  padding: 8px 20px; /* Spacing */
+  font-size: 16px; /* Font size */
+  border-color:#f28123;
+  background-color: transparent;
+  color: #ffffff;
+}
+button.button2:hover {
+  background-color: #f28123 !important;
+  border-color: transparent !important;
+}
+.buttons {
+  display: flex;
+  gap: 15px; /* Adds space between buttons */
+  justify-content: center; /* Centers buttons */
+  padding: 20px; /* Adds spacing */
+}
+
+.content {
+    padding: 180px ;
+}
+
+.head-del {
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 70px !important;
+}

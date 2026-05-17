@@ -1,0 +1,58 @@
+.info-container {
+  background-color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Aligns items vertically */
+  gap: 150px; /* Adds space between icon and text */
+  padding: 50px;
+}
+
+
+
+.sec1 {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    gap: 10px;
+    font-size: 24px;
+}
+.sec2 {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    gap: 10px;
+    font-size: 24px;
+}
+.sec3 {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    gap: 10px;
+    font-size: 24px;
+}
+
+.icons i {
+  border: 3px dotted #f28123;
+  padding: 16px 20px;
+  border-radius: 100px;
+  color: #f28123;
+}
+
+
+.text-content {
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+  align-items: flex-start; /* Ensure alignment to the left */
+  text-align: left; /* Make sure text stays left-aligned */
+  line-height: 1.0;
+}
+
+
+.head {
+    padding-top: 18px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #051922;
+}
+p {
+    font-size: 14px;
+    color: #6e797d;
+}

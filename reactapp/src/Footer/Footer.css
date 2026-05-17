@@ -1,0 +1,70 @@
+/*body, html {
+    margin: 0;
+    padding: 0;
+    /*overflow-x: hidden; /* Prevents horizontal scrolling 
+}*/
+
+.bottom-part {
+    border-top: #929a9e solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.categories {
+    font-family: 'Poppins', sans-serif;
+    background-color: #051922;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 200px;
+}
+
+.about,.touch,.pagesoptions,.sub {
+    color: #fafbfa;
+    width: 500px;
+    height: 400px;
+    gap: 150px;
+}
+
+.content-con {
+    padding:26px;
+}
+
+.social {
+    padding-right: 126px;
+    font-size: larger;
+    display: flex;
+    gap: 20px;
+    border: #051922 2px solid;
+}
+
+.content-head {
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.content-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #929a9e;
+    padding-top: 20px;
+}
+
+.copy {
+    padding: 50px 100px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.linefooter {
+    margin: 0px !important;
+}
